@@ -1,4 +1,3 @@
-# PageRank by Savin Ionut Razvan
 import os
 import random
 import re
@@ -165,3 +164,19 @@ def iterate_pagerank(corpus, damping_factor):
 
 if __name__ == "__main__":
     main()
+
+
+
+# Usage example:
+
+# (base) razvansavin@AEGIS:~/ProiecteVechi/CS50AI/pagerank$ python pagerank.py corpus0
+# PageRank Results from Sampling (n = 10000)
+#   1.html: 0.2208
+#   2.html: 0.4293
+#   3.html: 0.2216
+#   4.html: 0.1283
+# PageRank Results from Iteration
+#   1.html: 0.2199
+#   2.html: 0.4292
+#   3.html: 0.2199
+#   4.html: 0.1310
